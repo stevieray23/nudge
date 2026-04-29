@@ -19,7 +19,7 @@ function Nav() {
           <a href="#pricing" className="text-gray-500 hover:text-black transition-colors">Pricing</a>
           <Link href="/login" className="text-gray-500 hover:text-black transition-colors">Sign in</Link>
           <Link href="/signup" className="bg-black hover:bg-gray-800 text-white px-4 py-2 rounded-lg transition-colors">
-            Start free trial
+            Buy now — $29
           </Link>
         </div>
       </div>
@@ -34,11 +34,10 @@ function Hero({ onJoin }: { onJoin: (e: React.FormEvent) => void }) {
     <section className="px-6 pt-12 pb-20 max-w-6xl mx-auto">
       <div className="grid lg:grid-cols-2 gap-12 items-center">
 
-        {/* Copy */}
         <div>
           <div className="inline-flex items-center gap-2 bg-orange/10 text-orange px-3 py-1.5 rounded-full text-xs font-semibold mb-7">
             <span className="w-1.5 h-1.5 bg-orange rounded-full" />
-            $9/mo · Founding Member price · Limited spots
+            $29 one-time · Own it forever · First 20 signups only
           </div>
 
           <h1 className="text-5xl md:text-6xl font-black text-black tracking-tight leading-[1.04] mb-5">
@@ -47,7 +46,7 @@ function Hero({ onJoin }: { onJoin: (e: React.FormEvent) => void }) {
           </h1>
 
           <p className="text-lg text-gray-500 leading-relaxed mb-8 max-w-md">
-            Nudgit sends perfectly timed invoice reminders — so you stop losing money to forgotten payments. No awkward follow-ups. No embarrassing emails.
+            Nudgit sends perfectly timed invoice reminders — so you stop losing money to forgotten payments. No awkward follow-ups. No embarrassing emails. Pay once, own forever.
           </p>
 
           <form onSubmit={onJoin} className="flex flex-col sm:flex-row gap-3 mb-6">
@@ -62,7 +61,7 @@ function Hero({ onJoin }: { onJoin: (e: React.FormEvent) => void }) {
               type="submit"
               className="bg-orange hover:bg-orange-dark active:scale-[0.98] text-white px-6 py-3.5 rounded-xl text-sm font-bold transition-all shadow-orange whitespace-nowrap"
             >
-              Start free →
+              Buy now — $29 →
             </button>
           </form>
 
@@ -72,7 +71,7 @@ function Hero({ onJoin }: { onJoin: (e: React.FormEvent) => void }) {
                 <img key={s} src={`https://picsum.photos/seed/${s}/32/32`} className="w-7 h-7 rounded-full border-2 border-white object-cover" alt="" />
               ))}
             </div>
-            <span>147 freelancers already signed up</span>
+            <span>147 freelancers already signed up · 30-day money-back guarantee</span>
           </div>
         </div>
 
@@ -80,14 +79,12 @@ function Hero({ onJoin }: { onJoin: (e: React.FormEvent) => void }) {
         <div className="relative">
           <div className="absolute -inset-4 bg-gradient-to-br from-orange/5 via-transparent to-orange/10 rounded-3xl blur-2xl" />
           <div className="relative bg-white rounded-2xl border border-gray-200 shadow-2xl overflow-hidden">
-            {/* Chrome */}
             <div className="bg-gray-50 border-b border-gray-100 px-5 py-3.5 flex items-center gap-2">
               <div className="w-2.5 h-2.5 rounded-full bg-red-400" />
               <div className="w-2.5 h-2.5 rounded-full bg-yellow-400" />
               <div className="w-2.5 h-2.5 rounded-full bg-green-400" />
               <span className="ml-3 text-[10px] text-gray-400 font-mono">nudgit.app</span>
             </div>
-            {/* Content */}
             <div className="p-5">
               <div className="grid grid-cols-3 gap-3 mb-4">
                 {[
@@ -143,13 +140,13 @@ function Problem() {
             You sent the invoice.<br />Then you forgot.
           </h2>
           <p className="text-gray-400 leading-relaxed mb-6">
-            It happens to every freelancer. You move on, the project closes, the invoice sits in an inbox. Three months later: $4,200 gone. That's real money. Nudgit fixes it.
+            It happens to every freelancer. You move on, the project closes, the invoice sits in an inbox. Three months later: $4,200 gone. Nudgit fixes it.
           </p>
           <div className="space-y-3">
             {[
               { t: '😬', d: 'No reminder system. Invoices just... die in inboxes.' },
-              { t: '😩', d: 'Chasing feels awkward. So you don\'t. And lose money.' },
-              { t: '😓', d: 'No visibility. You never know what\'s actually overdue.' },
+              { t: '😩', d: "Chasing feels awkward. So you don't. And lose money." },
+              { t: '😓', d: "No visibility. You never know what's actually overdue." },
             ].map(p => (
               <div key={p.t} className="flex items-start gap-3 bg-white/5 rounded-xl p-4">
                 <span className="text-xl">{p.t}</span>
@@ -205,7 +202,7 @@ function HowItWorks() {
           { n: '01', t: 'Add your invoice', d: 'Client name, email, amount, due date. Or import 100 via CSV. 30 seconds.' },
           { n: '02', t: 'Pick your tone', d: 'Friendly, professional, or firm. We wrote the copy. You just choose.' },
           { n: '03', t: 'Nudgit handles it', d: 'Reminders go out automatically. Mark paid with one click when it lands.' },
-        ].map((s, i) => (
+        ].map(s => (
           <div key={s.n} className="relative border border-gray-200 rounded-2xl p-6 hover:border-orange/40 transition-all">
             <div className="text-5xl font-black text-gray-100 mb-3">{s.n}</div>
             <h3 className="font-black text-black text-lg mb-2">{s.t}</h3>
@@ -286,23 +283,22 @@ function Pricing({ onJoin }: { onJoin: (e: React.FormEvent) => void }) {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <p className="text-orange text-xs font-black uppercase tracking-widest mb-3">Pricing</p>
-          <h2 className="text-4xl font-black text-black tracking-tight">Simple. Honest.</h2>
-          <p className="text-gray-500 mt-2 text-sm">14-day free trial. No credit card required.</p>
+          <h2 className="text-4xl font-black text-black tracking-tight">Pay once. Own it forever.</h2>
+          <p className="text-gray-500 mt-2 text-sm">No subscriptions. No recurring charges. No tricks.</p>
         </div>
         <div className="grid md:grid-cols-3 gap-5 items-start">
           {[
             { n: 'Starter', p: 19, op: null, d: 'For freelancers starting out.', fs: ['20 invoices/mo', '3 reminders/invoice', 'Email only', 'CSV import', 'Basic dashboard'], hl: false, cta: 'Start free trial' },
-            { n: 'Pro', p: 9, op: 39, d: 'The price locks in forever. No tricks.', fs: ['100 invoices/mo', 'Unlimited reminders', 'Email + SMS', 'CSV import', 'Full dashboard', 'Custom sequences', 'Priority support'], hl: true, cta: 'Get founding access' },
+            { n: 'Lifetime Access', p: 29, op: null, d: 'Pay once. Own it forever. Best value.', fs: ['Unlimited invoices', 'Unlimited reminders', 'Email + SMS', 'CSV import', 'Full dashboard', 'Custom sequences', 'Priority support', 'All future updates'], hl: true, cta: 'Buy now — $29' },
             { n: 'Agency', p: 89, op: null, d: 'For agencies with multiple clients.', fs: ['Unlimited invoices', 'Unlimited reminders', 'Email + SMS + Slack', 'CSV import', 'Multi-client view', 'Advanced sequences'], hl: false, cta: 'Contact us' },
           ].map(plan => (
             <div key={plan.n} className={`rounded-2xl p-6 border-2 transition-all ${plan.hl ? 'border-orange bg-white shadow-xl' : 'border-gray-200 bg-white'}`}>
-              {plan.hl && <div className="text-center mb-3"><span className="bg-orange text-white text-[11px] font-black px-3 py-1 rounded-full">Founding price</span></div>}
+              {plan.hl && <div className="text-center mb-3"><span className="bg-orange text-white text-[11px] font-black px-3 py-1 rounded-full">Best value · Pay once</span></div>}
               <h3 className="font-black text-black text-lg mb-1">{plan.n}</h3>
               <p className="text-gray-500 text-xs mb-4">{plan.d}</p>
               <div className="flex items-end gap-1 mb-5">
                 <span className="text-4xl font-black text-black">${plan.p}</span>
-                <span className="text-gray-400 text-sm mb-1">/mo</span>
-                {plan.op && <span className="text-gray-400 text-sm mb-1 line-through">${plan.op}</span>}
+                <span className="text-green-500 text-sm font-bold mb-1">one-time</span>
               </div>
               <ul className="space-y-2 mb-5">
                 {plan.fs.map(f => (
@@ -318,7 +314,7 @@ function Pricing({ onJoin }: { onJoin: (e: React.FormEvent) => void }) {
             </div>
           ))}
         </div>
-        <p className="text-center text-xs text-gray-400 mt-5">Pro founding price locked for life. Cancel or upgrade anytime.</p>
+        <p className="text-center text-xs text-gray-400 mt-5">30-day money-back guarantee · Instant access after payment</p>
       </div>
     </section>
   )
@@ -329,11 +325,11 @@ function Pricing({ onJoin }: { onJoin: (e: React.FormEvent) => void }) {
 function FAQ() {
   const [open, setOpen] = useState<number | null>(null)
   const faqs = [
-    { q: 'How does Nudgit send emails on my behalf?', a: 'Nudgit uses your connected email address. Clients see the email from you — Nudgit handles the timing, content, and tracking. You stay in full control.' },
-    { q: 'What if a client pays but I forget to mark it?', a: 'Nudgit detects email replies and can auto-mark invoices as paid. Or just click "paid" manually — one second.' },
-    { q: 'Can I customise the reminder messages?', a: 'Yes. Start with our templates across three tones — Friendly, Professional, or Firm. Or write your own from scratch.' },
-    { q: 'When does the 14-day trial start?', a: 'When you create your account. No credit card required. After 14 days, subscribe or it pauses. No surprises.' },
-    { q: 'What if I cancel?', a: 'Your data stays yours. Export everything before you go. Simple.' },
+    { q: 'Is this really a one-time payment?', a: 'Yes. Pay $29 once and own Lifetime Access forever. No subscriptions. No hidden charges. Ever.' },
+    { q: 'What if I want a refund?', a: '30-day money-back guarantee. Not happy? Full refund, no questions.' },
+    { q: 'How does Nudgit send emails on my behalf?', a: 'Nudgit uses your connected email. Clients see the email from you — Nudgit handles the timing, content, and tracking.' },
+    { q: 'Can I customise the reminder messages?', a: 'Yes. Start with our templates (Friendly, Professional, Firm) or write your own from scratch.' },
+    { q: 'What if a client pays but I forget to mark it?', a: 'One click to mark as paid. Or Nudgit detects replies and auto-marks invoices as paid.' },
   ]
   return (
     <section id="faq" className="px-6 py-20 max-w-3xl mx-auto">
@@ -346,9 +342,7 @@ function FAQ() {
           <div key={i} className="bg-white rounded-xl border border-gray-100 overflow-hidden">
             <button onClick={() => setOpen(open === i ? null : i)} className="w-full px-5 py-4 flex items-center justify-between hover:bg-gray-50 transition-colors">
               <span className="font-semibold text-sm text-black">{f.q}</span>
-              <svg className={`w-4 h-4 text-gray-400 transition-transform flex-shrink-0 ml-3 ${open === i ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-              </svg>
+              <svg className={`w-4 h-4 text-gray-400 transition-transform flex-shrink-0 ml-3 ${open === i ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" /></svg>
             </button>
             {open === i && <div className="px-5 pb-4"><p className="text-gray-500 text-sm leading-relaxed">{f.a}</p></div>}
           </div>
@@ -365,15 +359,15 @@ function CTA({ onJoin }: { onJoin: (e: React.FormEvent) => void }) {
     <section className="bg-black text-white px-6 py-20">
       <div className="max-w-2xl mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-black tracking-tight mb-4">Stop leaving money on the table.</h2>
-        <p className="text-gray-400 mb-2">Founding Member — $9/mo for life.</p>
-        <p className="text-gray-600 text-sm mb-8">First 50 signups. 14-day free trial. No card required.</p>
+        <p className="text-gray-400 mb-2">$29 one-time · Own it forever.</p>
+        <p className="text-gray-600 text-sm mb-8">First 20 signups get the founding price. No credit card required.</p>
         <form onSubmit={onJoin} className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto mb-4">
           <input type="email" name="email" placeholder="you@yourbusiness.com" required className="flex-1 px-4 py-3.5 bg-white/10 border border-white/20 rounded-xl text-sm text-white placeholder-gray-600 focus:outline-none focus:ring-2 focus:ring-orange" />
           <button type="submit" className="bg-orange hover:bg-orange-dark active:scale-[0.98] text-white px-6 py-3.5 rounded-xl text-sm font-bold transition-all whitespace-nowrap">
-            Get early access →
+            Buy now — $29 →
           </button>
         </form>
-        <p className="text-xs text-gray-600">No spam. Unsubscribe anytime.</p>
+        <p className="text-xs text-gray-600">Secure Stripe checkout · Instant access · 30-day money-back guarantee</p>
       </div>
     </section>
   )
@@ -400,8 +394,6 @@ function Footer() {
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 export default function HomePage() {
-  const [toast, setToast] = useState<ToastState>({ show: false, message: '' })
-
   function handleJoin(e: React.FormEvent) {
     e.preventDefault()
     const form = e.currentTarget as HTMLFormElement
@@ -421,11 +413,6 @@ export default function HomePage() {
       <FAQ />
       <CTA onJoin={handleJoin} />
       <Footer />
-      {toast.show && (
-        <div className="fixed bottom-6 right-6 bg-black text-white px-5 py-3.5 rounded-xl shadow-2xl text-sm font-medium flex items-center gap-2.5">
-          <span className="text-green-400">✓</span> {toast.message}
-        </div>
-      )}
     </div>
   )
 }
