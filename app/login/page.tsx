@@ -21,10 +21,8 @@ export default function LoginPage() {
       {/* Nav */}
       <nav className="px-8 py-5 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2.5">
-          <div className="w-8 h-8 bg-sky-500 rounded-xl flex items-center justify-center">
-            <span className="text-white font-bold text-sm">C</span>
-          </div>
-          <span className="font-semibold text-lg text-zinc-900 tracking-tight">Chase</span>
+          <img src="/logo.png" alt="Nudgit" className="h-8 w-auto object-contain" />
+          <span className="font-semibold text-lg text-[#18181B] tracking-tight">Nudgit</span>
         </Link>
         <Link href="/signup" className="text-sm text-zinc-500 hover:text-zinc-700 transition-colors">
           Don&apos;t have an account?

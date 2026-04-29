@@ -2,8 +2,11 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Chase — Get Paid Without the Awkwardness',
-  description: 'Automated invoice reminders for freelancers and small service businesses. Never lose money to forgotten invoices again.',
+  title: 'Nudgit — Get paid without the awkwardness',
+  description: 'Nudgit sends perfectly timed invoice reminders so freelancers stop losing money to forgotten payments. No awkward chasing. No more $4,200 lost per year.',
+  icons: {
+    icon: '/logo.png',
+  },
 }
 
 export default function RootLayout({
@@ -13,7 +16,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="antialiased min-h-screen bg-white text-slate-900">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+      </head>
+      <body className="antialiased min-h-screen bg-[#FFFBF5] text-[#18181B]">
         {children}
       </body>
     </html>

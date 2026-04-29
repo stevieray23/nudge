@@ -3,12 +3,26 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #0f172a;
+  --amber: #F59E0B;
+  --amber-light: #FEF3C7;
+  --amber-dark: #D97706;
+  --charcoal: #18181B;
+  --slate: #64748B;
+  --cream: #FFFBF5;
+  --white: #FFFFFF;
+  --border: #E5E7EB;
 }
 
 body {
-  font-family: 'Inter', system-ui, sans-serif;
+  font-family: 'Outfit', system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer utilities {
+  .amber-gradient {
+    background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+  }
+  .card-shadow {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
+  }
 }
