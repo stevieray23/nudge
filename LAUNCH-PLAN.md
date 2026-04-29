@@ -2,8 +2,11 @@
 
 **Last updated:** 2026-04-29
 **Product:** Nudge — invoice reminder SaaS for freelancers
-**Website:** http://localhost:3000 (dev) | nudge.app (TBD)
-**Repo:** https://github.com/stevieray23/nudge
+**Website:** https://nudgeit.pro (live ✅)
+**Repo:** https://github.com/stevieray23/nudge ✅
+**Stripe products:** Starter $19 / Pro $9 founding / Agency $89 ✅ (created 2026-04-29)
+**Vercel deployment:** ✅ live at nudgeit.pro
+**Domain:** nudgeit.pro ✅ (registered on Hostinger)
 
 ---
 
