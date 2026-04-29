@@ -3,26 +3,31 @@
 @tailwind utilities;
 
 :root {
-  --amber: #F59E0B;
-  --amber-light: #FEF3C7;
-  --amber-dark: #D97706;
-  --charcoal: #18181B;
-  --slate: #64748B;
-  --cream: #FFFBF5;
-  --white: #FFFFFF;
-  --border: #E5E7EB;
+  --black:  #18181B;
+  --orange: #F59E0B;
+  --orange-dark: #D97706;
+  --orange-light: #FEF3C7;
+  --white:  #FFFFFF;
+  --gray-50: #FAFAFA;
+  --gray-100: #F4F4F5;
+  --gray-200: #E4E4E7;
+  --gray-400: #A1A1AA;
+  --gray-500: #71717A;
+  --red-500: #EF4444;
+  --green-500: #10B981;
 }
 
 body {
   font-family: 'Outfit', system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
+  background: var(--white);
+  color: var(--black);
 }
 
 @layer utilities {
-  .amber-gradient {
-    background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
-  }
-  .card-shadow {
-    box-shadow: 0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.04);
-  }
+  .bg-orange { background-color: var(--orange); }
+  .text-orange { color: var(--orange); }
+  .border-orange { border-color: var(--orange); }
+  .hover\:bg-orange-dark:hover { background-color: var(--orange-dark); }
+  .shadow-orange { box-shadow: 0 4px 14px rgba(245, 158, 11, 0.25); }
 }
