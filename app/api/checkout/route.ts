@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
     }
 
     const stripe = new Stripe(stripeSecretKey, {
-      apiVersion: '2025-03-31.basil',
+      apiVersion: '2026-04-22.dahlia',
     })
 
     const origin = req.headers.get('origin') ?? 'http://localhost:3000'

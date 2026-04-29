@@ -33,3 +33,5 @@ Thumbs.db
 
 # Stripe keys (never commit these)
 *stripe*
+
+.vercel
