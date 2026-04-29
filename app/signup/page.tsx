@@ -83,7 +83,7 @@ const plans: Plan[] = [
     desc: 'For freelancers just getting started with invoicing.',
     features: ['20 invoices/month', 'Up to 3 reminders per invoice', 'Email reminders', 'CSV import', 'Basic dashboard'],
     highlight: false,
-    stripePriceId: process.env.NEXT_PUBLIC_STRIPE_STARTER_PRICE_ID ?? 'price_starter_placeholder',
+    stripePriceId: process.env.NEXT_PUBLIC_STRIPE_STARTER_PRICE_ID ?? '',
   },
   {
     name: 'Pro',
@@ -93,7 +93,7 @@ const plans: Plan[] = [
     desc: 'For serious freelancers. This price locks in forever. No tricks.',
     features: ['100 invoices/month', 'Unlimited reminders', 'Email + SMS reminders', 'CSV import', 'Full dashboard', 'Custom sequences', 'Priority support'],
     highlight: true,
-    stripePriceId: process.env.NEXT_PUBLIC_STRIPE_PRO_PRICE_ID ?? 'price_pro_placeholder',
+    stripePriceId: process.env.NEXT_PUBLIC_STRIPE_PRO_PRICE_ID ?? '',
   },
   {
     name: 'Agency',
@@ -103,7 +103,7 @@ const plans: Plan[] = [
     desc: 'For agencies managing multiple clients and contractors.',
     features: ['Unlimited invoices', 'Unlimited reminders', 'Email + SMS + Slack', 'CSV import', 'Full dashboard', 'Multi-client view', 'Advanced sequences', 'Dedicated support'],
     highlight: false,
-    stripePriceId: process.env.NEXT_PUBLIC_STRIPE_AGENCY_PRICE_ID ?? 'price_agency_placeholder',
+    stripePriceId: process.env.NEXT_PUBLIC_STRIPE_AGENCY_PRICE_ID ?? '',
   },
 ]
 

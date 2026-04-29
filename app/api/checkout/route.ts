@@ -1,27 +1,36 @@
 import { NextRequest, NextResponse } from 'next/server'
+import Stripe from 'stripe'
 
 export async function POST(req: NextRequest) {
   try {
     const { priceId, email } = await req.json()
 
-    const stripeSecretKey = process.env.STRIPE_SECRET_KEY
-
-    // Stripe not configured — return a signal to frontend to show confirmation
-    if (!stripeSecretKey || stripeSecretKey === 'placeholder') {
-      return NextResponse.json({ configured: false }, { status: 200 })
+    if (!priceId || !email) {
+      return NextResponse.json({ error: 'Missing priceId or email' }, { status: 400 })
     }
 
-    // Dynamically import stripe to avoid build errors when key is missing
-    const Stripe = (await import('stripe')).default
-    const stripe = new Stripe(stripeSecretKey, { apiVersion: '2025-03-31.basil' })
+    const stripeSecretKey = process.env.STRIPE_SECRET_KEY
+
+    if (!stripeSecretKey) {
+      return NextResponse.json({ error: 'Stripe not configured' }, { status: 500 })
+    }
+
+    const stripe = new Stripe(stripeSecretKey, {
+      apiVersion: '2025-03-31.basil',
+    })
+
+    const origin = req.headers.get('origin') ?? 'http://localhost:3000'
 
     const session = await stripe.checkout.sessions.create({
       mode: 'subscription',
       payment_method_types: ['card'],
       line_items: [{ price: priceId, quantity: 1 }],
       customer_email: email,
-      success_url: `${req.headers.get('origin') ?? 'http://localhost:3000'}/signup?success=true`,
-      cancel_url: `${req.headers.get('origin') ?? 'http://localhost:3000'}/signup?canceled=true`,
+      success_url: `${origin}/signup?success=true&session_id={CHECKOUT_SESSION_ID}`,
+      cancel_url: `${origin}/signup?canceled=true`,
+      subscription_data: {
+        metadata: { onboarding_source: 'nudge_landing' },
+      },
     })
 
     return NextResponse.json({ url: session.url }, { status: 200 })
