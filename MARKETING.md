@@ -2,28 +2,23 @@
 
 **Live at:** https://nudgeit.pro
 **Product:** Invoice reminder SaaS for freelancers
-**Founding offer:** $9/mo, locked for life, first 50 customers
+**Founding offer:** $29 one-time · Own it forever · First 20 signups only
 **Hook:** "I lost $4,200 to forgotten invoices last year. Built Nudgit so you don't have to."
 
 ---
 
 ## Product Hunt Launch Post
 
-### Upvote this first
-→ https://www.producthunt.com/posts/nudgit
-
 ### Headline
-**Nudgit — Get paid without the awkwardness**
+**Nudgit — Get paid without the awkward follow-up emails**
 
 ### Tagline
 Stop losing money to forgotten invoices.
 
 ### Description
-Nudgit sends perfectly timed, human-written invoice follow-ups — so freelancers stop losing money to forgotten payments without having to be the one doing the chasing.
+Nudgit sends perfectly timed invoice reminders so freelancers stop leaving money on the table. No awkward "just checking in" emails. No confrontational DMs. Just a professional nudge at exactly the right moment.
 
-No awkward emails. No confrontational DMs. Just a professional nudge at exactly the right moment.
-
-**$9/mo founding member price — locks in forever. First 50 signups only.**
+**$29 one-time · Own it forever · No subscription**
 
 ### Features
 - Automated email reminders (friendly before, firm after)
@@ -34,21 +29,19 @@ No awkward emails. No confrontational DMs. Just a professional nudge at exactly 
 - One-click mark as paid
 
 ### Pricing
-- Starter: $19/mo (14-day free trial)
-- Pro — Founding Member: **$9/mo** (locked for life)
-- Agency: $89/mo
+- Starter: $19 one-time
+- Lifetime Access: **$29** (best value — own it forever)
+- Agency: $89 one-time
 
-### Maker comment (post this after publishing)
+### Maker comment
 ```
-Hey everyone 👋
+I lost $4,200 last year to forgotten invoices.
 
-I lost $4,200 last year to invoices I just... forgot to follow up on.
+Not because I'm bad at my job. Just... life happened.
 
-It's embarrassing to admit but it happens to every freelancer. You send the invoice, move on, three months go by, and the money is just gone.
+So I built Nudgit. It sends perfectly timed reminder emails to your clients — friendly before the due date, appropriately firm after. You pick the tone, Nudgit handles the awkwardness.
 
-Built Nudgit so that never happens again. It sends perfectly timed reminder emails — friendly before the due date, appropriately firm after. You pick the tone, Nudgit handles the awkwardness.
-
-Currently in early access. First 50 signups get $9/mo locked for forever.
+$29 one-time. No subscription. It just works.
 
 Honest feedback welcome — is this useful or am I missing something?
 ```
@@ -59,13 +52,13 @@ Honest feedback welcome — is this useful or am I missing something?
 
 **Tweet 1:**
 ```
-I lost $4,200 last year to forgotten invoices.
+Lost $4,200 last year to forgotten invoices.
 
-Not because I was bad at my job. Just... life happened.
+Not because I'm bad at freelancing. Just life happened.
 
-So I built Nudgit — sends automated invoice reminders so freelancers stop losing money.
+Built Nudgit — sends automated invoice reminders so you stop losing money.
 
-Launching today at nudgeit.pro 🧵
+Launching today at nudgeit.pro
 ```
 
 **Tweet 2:**
@@ -74,29 +67,27 @@ The problem isn't invoicing software.
 
 It's the follow-up.
 
-Every freelancer knows this feeling: you sent the invoice, you moved on, three months go by, and you realize you never got paid.
+You send the invoice, move on, three months go by, and you realize you never got paid.
 
 The client has moved on. The money is gone.
 ```
 
 **Tweet 3:**
 ```
-Nudgit sends perfectly timed reminders:
+Nudgit sends reminders:
 - Friendly: 3 days before due date
 - Professional: on the due date
 - Firm: 3 days overdue
 - Final notice: 7 days overdue
 
-You pick the tone. Nudgit handles the awkward part.
+Pick the tone. Nudgit sends them automatically.
 ```
 
 **Tweet 4:**
 ```
-Founding Member pricing — $9/mo locked for life.
+$29 one-time. No subscription.
 
-First 50 signups only.
-
-14-day free trial. No credit card required.
+First 20 signups get the founding price.
 
 → nudgeit.pro
 ```
@@ -105,7 +96,7 @@ First 50 signups only.
 
 ## Reddit — r/freelance Post
 
-**Title:** I built a tool to stop freelancers losing money to forgotten invoices (got me paid $3,400 in two weeks)
+**Title:** I built a tool that stopped me losing $4,200/year to forgotten invoices
 
 **Body:**
 ```
@@ -113,13 +104,13 @@ Hey r/freelance
 
 Quick share — I built a small tool called Nudgit that sends automated invoice reminders so you stop losing money to forgotten payments.
 
-I lost $4,200 last year to invoices I just... forgot to follow up on. It's embarrassing but it happens to everyone.
+I lost $4,200 last year to invoices I just forgot to follow up on. It happens to every freelancer.
 
-Nudgit sends perfectly timed, human-written reminder emails — friendly before the due date, appropriately firm after. You pick the tone, it handles the awkwardness.
+Nudgit sends perfectly timed reminder emails — friendly before the due date, appropriately firm after. You pick the tone, it handles the awkward part.
 
-Just set it up, imported my 20 overdue invoices via CSV, and by the end of the week 18 of them had been paid.
+Set it up, imported 20 overdue invoices via CSV, 18 of them paid by the end of the week.
 
-Currently in early access. First 50 signups get $9/mo locked for life.
+$29 one-time. No subscription.
 
 Would genuinely love honest feedback — is this useful or am I missing something?
 
@@ -130,7 +121,7 @@ Link: https://nudgeit.pro
 
 ## Reddit — r/SideProject Post
 
-**Title:** I built Nudgit in a weekend — automated invoice reminders for freelancers. Lost $4,200 to forgotten invoices last year.
+**Title:** Built Nudgit after losing $4,200 to forgotten invoices — automated reminders for freelancers
 
 **Body:**
 ```
@@ -144,7 +135,7 @@ The fix: Nudgit. Sends automated invoice follow-ups so you stop losing money.
 
 Built with Next.js, Tailwind, Supabase, Stripe.
 
-Currently in early access. First 50 get $9/mo locked for life.
+$29 one-time. No subscription.
 
 Would love feedback from people who actually send invoices.
 
@@ -159,13 +150,13 @@ AMA.
 
 ### Template A — Freelancer on Twitter
 ```
-Hey [name] — I saw you're a [designer/developer/freelancer].
+Hey [name] — noticed you're a [designer/developer/freelancer].
 
-I built a small tool called Nudgit that sends automated invoice reminders so you stop losing money to forgotten payments.
+I built Nudgit — sends automated invoice reminders so you stop losing money to forgotten payments.
 
-Would love to send you a free founding member spot ($9/mo for life) if you're open to trying it and giving honest feedback.
+Would love to offer you a free founding spot ($29, yours forever) if you're open to trying it and giving honest feedback.
 
-No pressure either way — just thought you might relate to the problem.
+No pressure either way.
 ```
 
 ### Template B — General
@@ -176,7 +167,7 @@ I built Nudgit — a tool that sends automated invoice follow-ups for freelancer
 
 Lost $4,200 to forgotten invoices last year. Built this so it never happens again.
 
-Would love to offer you a free founding member spot ($9/mo locked for life) in exchange for honest feedback.
+Would love to offer you a founding spot ($29 one-time, yours forever) in exchange for honest feedback.
 
 Happy to chat more if you're interested.
 ```
@@ -194,9 +185,9 @@ You signed up for early access to Nudgit — here's the update.
 
 Nudgit is now live at nudgeit.pro.
 
-The founding member price ($9/mo, locked for life) is still available for the first 50 signups.
+The founding price ($29 one-time, yours forever) is still available for the first 20 signups.
 
-If you're ready, here's the link: https://nudgeit.pro/signup
+If you're ready: https://nudgeit.pro/signup
 
 If not — totally fine. No hard feelings.
 
@@ -220,6 +211,6 @@ Let me know if you have any questions.
 
 ## Key Stats to Use
 - Avg freelancer loses $4,200/year to forgotten invoices
-- 147 on waitlist
 - Setup takes < 5 minutes
 - Import 100 invoices at once via CSV
+- $29 one-time · No subscription · Own it forever

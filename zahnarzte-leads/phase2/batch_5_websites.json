@@ -1,0 +1,380 @@
+[
+  {
+    "clinic_name": "Hennig Christoph",
+    "address": "Breslauer Str. 20, 40880 Ratingen (West)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/67e80ffd-4697-485c-940a-24c5c05defdb",
+    "city": "Düsseldorf"
+  },
+  {
+    "clinic_name": "Sniegowski Oona Dr.",
+    "address": "Venloer Str. 64, 41462 Neuss (Furth-Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/a4d346e3-8dd9-4760-9344-4c049dae2822",
+    "city": "Düsseldorf"
+  },
+  {
+    "clinic_name": "Kochhan Gerhard Dr. Fachzahnarzt für Oralchirurgie",
+    "address": "Königsallee 12, 40212 Düsseldorf (Stadtmitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/fcb5f173-35d4-4aa2-9095-33fd9dfc9024",
+    "city": "Düsseldorf"
+  },
+  {
+    "clinic_name": "Popovski Kristian Zahnskulptur",
+    "address": "Kasernenstr. 15, 40213 Düsseldorf (Carlstadt)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/12ea2f42-7d36-4c29-b475-97906d84bf0c",
+    "city": "Düsseldorf"
+  },
+  {
+    "clinic_name": "Dr.med.dent. Hans-Dieter John",
+    "address": "Grabenstr. 5, 40213 Düsseldorf (Carlstadt)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/cb37feaa-e2b7-462e-b675-2d8b08f0a4a4",
+    "city": "Düsseldorf"
+  },
+  {
+    "clinic_name": "Mowius Gregor",
+    "address": "Königsallee 60D, 40212 Düsseldorf (Stadtmitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/09de7876-1b6f-42ca-9e95-b455f15c78da",
+    "city": "Düsseldorf"
+  },
+  {
+    "clinic_name": "Dr. Girgis Ghattas; Dentaparks Zahnärzte",
+    "address": "Liesegangstr. 13, 40211 Düsseldorf (Stadtmitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/6e2e1b7e-48b2-4183-a003-fc77c50dffd1",
+    "city": "Düsseldorf"
+  },
+  {
+    "clinic_name": "Boeger Hiltrud M. Dr.med.dent. Zahnärztin",
+    "address": "Carlsplatz 18, 40213 Düsseldorf (Carlstadt)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/0f9fd628-6f17-478b-80a4-d027f7f1df07",
+    "city": "Düsseldorf"
+  },
+  {
+    "clinic_name": "Kettel Ernst Dr.med.dent. Zahnarzt",
+    "address": "Schadowplatz 12, 40212 Düsseldorf (Stadtmitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/b1a847b0-8811-46fd-b3be-fc22d7bf9a6e",
+    "city": "Düsseldorf"
+  },
+  {
+    "clinic_name": "Schönlebe Dr. Zahnarzt",
+    "address": "Schadowplatz 9, 40212 Düsseldorf (Stadtmitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/73757bff-db51-42a7-84a8-6bfa4471fe1c",
+    "city": "Düsseldorf"
+  },
+  {
+    "clinic_name": "Dr. med. Maick Griebenow",
+    "address": "Brüderweg 13, 44135 Dortmund",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/0f4341ba-36c0-4d51-aa9c-8b204d5f37bb",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Zahnarztpraxis am Markt - Eving",
+    "address": "Provinzialstr. 396, 44388 Dortmund",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/89e5c4d4-3ba3-4f84-97cd-5d0084c664c7",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Dr. Miroslav Sternberg",
+    "address": "Provinzialstr. 396, 44388 Dortmund",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/94fd8c60-019f-4600-97f0-f0a304e89dc0",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Klemann",
+    "address": "Markscheiderstr. 4, 44269 Dortmund (Schüren)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/8b92a192-d924-486c-90b7-5d3bec11f76a",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Ästhetische Zahnheilkunde Josephs André",
+    "address": "Sölder Str. 106, 44289 Dortmund (Sölde)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/61030f48-71ad-49ad-98e7-52fcee9ed616",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Grebe, Henning ZAHNMEDIZIN IM MÄRKERHAUS",
+    "address": "Konrad-Glocker-Str. 1, 44141 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/e527836d-5e89-4da9-8294-3697b255df3c",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Dr. Anja Hild Zahnärzte",
+    "address": "Schwanenstr. 48, 44135 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/25f7fab4-b8a1-47fc-bd94-e76c84aa513b",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Krebs Bernd Dr.",
+    "address": "Auf der Linnert 25A, 44149 Dortmund (Oespel)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/53e3fa99-37e0-4739-9c76-7f2c335ea0a5",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Barbara Hinz Praxis für Zahnheilkunde",
+    "address": "Schulte-Heuthaus-Str. 39, 44379 Dortmund (Marten)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/3e0163d8-1988-46b8-a991-7eb04f39ede0",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Müller Bernd Dr.",
+    "address": "Godekinstr. 148, 44265 Dortmund (Wellinghofen)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/ee55ed98-d448-4547-806c-2d21f28edd42",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Makowski Andreas",
+    "address": "Husener Str. 69, 44319 Dortmund (Husen)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/8568ccf6-b461-42dd-98ef-1dc59d64cc16",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Zoran Pantic Zahnarzt",
+    "address": "Breierspfad 204A, 44309 Dortmund (Brackel)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/ad4e0123-6ac1-4e1a-b4b4-716e9f93977c",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Eckhardt Markus",
+    "address": "Friedrichstr. 60, 44137 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/30be9ab8-59b5-44f8-a4f2-6cfacb80fd96",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Pascal Puers + Sabine Wiemer-Puers Zahnärzte",
+    "address": "Hoher Wall 28, 44137 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/1f3a4f54-10c1-401f-9a7b-cfca6715f3e5",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Fabri Tobias Dr.med.dent Zahnärzte",
+    "address": "Wambeler Hellweg 105, 44143 Dortmund (Wambel)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/554f1980-90f0-44fd-ac83-1ba0514c99c8",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Hild Anja Dr.",
+    "address": "Schwanenstr. 48, 44135 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/e390e0ef-6851-4986-9b94-452432bda3eb",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Hinz Barbara Zahnärztin",
+    "address": "Schulte-Heuthaus-Str. 39, 44379 Dortmund (Marten)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/6022644f-6ba5-42aa-8cf6-67050b0fbe0d",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Josephs André Dr. Zahnarztpraxis",
+    "address": "Sölder Str. 106, 44289 Dortmund (Sölde)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/3d5a04ba-97cd-44b3-b4fa-15d8e67783ba",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Kieferzentrum Dortmund-Hombruch",
+    "address": "Harkortstr. 64, 44225 Dortmund (Hombruch)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/e217a7de-33a1-45fa-8f41-0ed4090c7b91",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Puers R. + Wiemer-Puers S. Zahnärzte",
+    "address": "Hoher Wall 28, 44137 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/1f3a4f54-10c1-401f-9a7b-cfca6715f3e5",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Dr. med. Maick Griebenow Mund-Kiefer-Gesichtschirurg",
+    "address": "Brüderweg 13, 44135 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/45c54942-61dc-482e-8783-562a29f4e041",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Kieferzentrum Hombruch Dr. Kerstin Kamyszek",
+    "address": "Harkortstr. 64, 44225 Dortmund (Hombruch)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/73ed568f-6204-47e9-892e-da357ae529a6",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Kieferzentrum Hombruch, Dr. Dr. Thomas Kamyszek",
+    "address": "Harkortstr. 64, 44225 Dortmund (Hombruch)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/1b10056b-9a1d-4f09-8b2f-bc43a1949e27",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Fricke Clemens Dr. & Ritschel Ina Dr.",
+    "address": "Saarlandstr. 80, 44139 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/7693e463-8548-4679-bc28-79d7cee99a25",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Maryam Namazi MSc. Kieferorthopädie Praxis",
+    "address": "Werner Str. 4, 44388 Dortmund (Lütgendortmund)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/e2e89641-eeda-414c-a7b4-98c8997eef20",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Dr. Dr. med. Klaus Giesen",
+    "address": "Wißstr. 20, 44137 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/16e35db4-0ffa-4aa6-8eba-7090896be019",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Praxis Kirchhörde Dr. Fricke & Dr. Ritschel",
+    "address": "Hagener Str. 310, 44229 Dortmund (Kirchhörde)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/c2019a44-a5e5-4669-bf3d-0de07eaf7d31",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Praxis in Höchsten Dr. Fricke & Dr. Ritschel",
+    "address": "Wittbräucker Str. 358a, 44267 Dortmund",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/0b96212d-dca1-4368-85d8-c56c87331e4b",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Zahnwandel Dr. Andre Haggar & Dr. Bedri Krasniq",
+    "address": "Kleppingstr. 20, 44135 Dortmund (Huckarde)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/042046e9-993d-4f60-967f-9aaba8313197",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Zahnwandel MVZ GbR",
+    "address": "Kleppingstr. 20, 44135 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/9c42df70-6f1b-4a2f-8e0a-3baabbb42c4e",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "ZZplus Zentrum Zahnärzte",
+    "address": "Westenhellweg 92-94, 44137 Dortmund",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/369c82d7-3223-4dd1-92aa-37f2c3427b3d",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Van Zwoll Uwe Dr. Zahnarztpraxis",
+    "address": "Silberstr. 22, 44137 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/6fa976a1-7e29-458d-95f2-b6d01ee06782",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "MVZ ZahnärzteZentrum GbR",
+    "address": "Westenhellweg 9, 44137 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/2588e144-47f4-4791-8c6f-bc21ce95740e",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "ZahnärzteZentrum im Krüger-Haus",
+    "address": "Westenhellweg 9, 44137 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/32ebb573-868c-47aa-9245-98e76cad5301",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Sude M. Zahnarzt",
+    "address": "Olpe 19, 44135 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/306d9783-e803-4396-8fff-37b50123d2b4",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Orthograd Fachpraxis für Kieferorthopädie am Ostwall, Rüsing Maike Dr.med.dent. Fachzahnärztin für Kieferorthopädie",
+    "address": "Löwenstr. 11, 44135 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/27026b3a-8144-4d2a-8dd5-489e244cf758",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Lemonidis Konstantinos Zahnarztpraxis",
+    "address": "Weißenburger Str. 7, 44135 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/dbe54ed8-8cb2-4a05-b446-5d0f2f00a6cf",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Zahnarztpraxis Dres. Dinyarian DOC Kieferorthopädie",
+    "address": "Kampstr. 45, 44137 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/b5588f9b-2f56-4062-ad66-dfc83e00fb1a",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Baumeister Markus Dr.med.dent. Zahnarzt",
+    "address": "Schwarze-Brüder-Str. 1, 44137 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/8197ac6a-d2ad-41dd-9253-b44ec8c52644",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Mentler Marghitta Dr. Zahnärztin",
+    "address": "Hoher Wall 32, 44137 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/f8f537c0-0eb7-4f70-b40b-1dcc2d3c792f",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Bras Da Silva Manuel Dr. Zahnarzt",
+    "address": "Hohe Str. 7, 44139 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/960a2d15-bb18-4f34-84d0-aa56fed638b0",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Akram Hassan Zada Shakila Dr.med.dent. Zahnärztin",
+    "address": "Krimstr. 2, 44145 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/12f8ac63-c447-4666-bb44-9be0b65a645e",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Schwake Alfons Zahnarztpraxis",
+    "address": "Märkische Str. 60, 44141 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/f5a94e2c-3552-4026-899c-160cf9fc3db0",
+    "city": "Dortmund"
+  },
+  {
+    "clinic_name": "Grebe Götz Dr. und Grebe Melanie Dr. Zahnärzte",
+    "address": "Schwanenwall 10, 44135 Dortmund (Mitte)",
+    "phone": "",
+    "website": "https://www.gelbeseiten.de/gsbiz/5f160134-17c7-4f66-a567-b9d506edcb01",
+    "city": "Dortmund"
+  }
+]
